@@ -28,3 +28,7 @@
 ### To run the Dag on webserver ui
 
 `http:0.0.0.0:8080`
+
+### To stop and delete containers and airflow data, run
+
+`docker compose down --volumes --rmi all`
