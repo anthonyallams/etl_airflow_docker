@@ -4,6 +4,10 @@
 
 `docker-compose build`
 
+### Run airflow
+
+`docker compose up -d `
+
 ### To run on command line, get the container id for webserver
 
 `docker ps`
