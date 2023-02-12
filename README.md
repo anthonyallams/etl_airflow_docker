@@ -1,16 +1,8 @@
 ## To run, do the following:
 
-### Build the image from Dockerfile
+### Build the airflow image from Dockerfile
 
 `docker-compose build`
-
-### Initialize the airflow db
-
-`docker compose up airflow-init`
-
-### Run airflow
-
-`docker compose up -d `
 
 ### To run on command line, get the container id for webserver
 

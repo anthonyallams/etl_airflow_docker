@@ -89,15 +89,15 @@ services:
       retries: 5
     restart: always
 
-  flask:
-    image: python:3.10
-    container_name: flask_server
-    ports:
-      - 5005:5000
-    healthcheck:
-      test: ["CMD", "flask", "run", "--host", "0.0.0.0", "--port", "5005"]
-      interval: 5s
-      retries: 5
+  # flask:
+  #   image: python:3.10
+  #   container_name: flask_server
+  #   ports:
+  #     - 5005:5000
+  #   healthcheck:
+  #     test: ["CMD", "flask", "run", "--host", "0.0.0.0", "--port", "5005"]
+  #     interval: 5s
+  #     retries: 5
 
   redis:
     image: redis:latest
